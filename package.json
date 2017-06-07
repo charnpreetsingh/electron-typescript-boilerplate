@@ -1,0 +1,30 @@
+{
+  "name": "electron-typescript-boilerplate",
+  "version": "0.0.1",
+  "description": "A Typescript boilerplate for electron apps.",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc app.ts",
+    "start": "electron app.js",
+    "build:all": "npm run build && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charnpreetsingh/electron-typescript-boilerplate.git"
+  },
+  "keywords": [
+    "electron",
+    "typescript"
+  ],
+  "author": "Charnpreet Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charnpreetsingh/electron-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/charnpreetsingh/electron-typescript-boilerplate#readme",
+  "devDependencies": {
+    "electron": "^1.6.10",
+    "typescript": "^2.3.4"
+  }
+}
